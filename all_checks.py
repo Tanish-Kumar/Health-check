@@ -28,7 +28,7 @@ def check_no_network():
         socket.gethostbyname("www.google.com")
         return False
     except:
-        return true
+        return True
 
 def main():
     checks = [
