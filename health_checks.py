@@ -30,7 +30,7 @@ def main():
     checks = [
         (check_reboot, "Pending Rebot"),
         (check_root_full, "Root partition full"),
-        (check_no_network, "No working network")
+        (check_cpu_constrained, "cpu is having too much usage")
     ]
     everything_ok = True
     for check,msg in checks:
